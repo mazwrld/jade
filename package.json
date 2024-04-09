@@ -2,10 +2,18 @@
   "name": "jade",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "dev": "wrangler dev index.ts"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "prettier": "^3.2.5",
+    "wrangler": "^3.48.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^4.2.3"
   }
 }
