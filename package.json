@@ -14,6 +14,8 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@upstash/ratelimit": "^1.0.3",
+    "@upstash/redis": "^1.29.0",
     "hono": "^4.2.3"
   }
 }
